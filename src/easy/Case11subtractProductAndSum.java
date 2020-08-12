@@ -2,6 +2,7 @@ package easy;
 
 /**
  * @author aviccii 2020/8/12
+ *
  * 给你一个整数 n，请你帮忙计算并返回该整数「各位数字之积」与「各位数字之和」的差。
  */
 public class Case11subtractProductAndSum {
