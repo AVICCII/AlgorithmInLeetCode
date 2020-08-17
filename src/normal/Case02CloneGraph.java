@@ -34,8 +34,6 @@ public class Case02CloneGraph {
         }
         return cloneNode;
     }
-}
-
 
     class Node {
         public int val;
@@ -55,6 +53,9 @@ public class Case02CloneGraph {
             val = _val;
             neighbors = _neighbors;
         }
+}
+
+
 
 
 /**
