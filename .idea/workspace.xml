@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b442cafc-0cd0-4063-9a1f-476407c1c165" name="Default Changelist" comment="2020/08/12">
-      <change afterPath="$PROJECT_DIR$/src/easy/Case13reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case14isPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case15romanToInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case16isValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case17isBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case18deleteNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case19decompressRleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/case20NumberOfSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/Case03multiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/normal/Case02CloneGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/normal/Case02CloneGraph.java" afterDir="false" />
-    </list>
+    <list default="true" id="b442cafc-0cd0-4063-9a1f-476407c1c165" name="Default Changelist" comment="2020/08/12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +93,7 @@
       <updated>1597128847625</updated>
       <workItem from="1597128849915" duration="8096000" />
       <workItem from="1597192181235" duration="9114000" />
-      <workItem from="1597653590242" duration="3133000" />
+      <workItem from="1597653590242" duration="3479000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -128,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597200132645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2020/08/12">
+      <created>1597657045778</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597657045778</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2020/08/12">
+      <created>1597657057703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597657057703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,10 +186,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597199794330" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1597200134515">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1597657061220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597200134515" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597657061220" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597199924398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
