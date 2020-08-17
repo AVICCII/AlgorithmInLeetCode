@@ -4,6 +4,7 @@ package easy;
 /**
  * @author aviccii 2020/8/17
  * 给定一个二叉树，判断它是否是高度平衡的二叉树。
+ *
  */
 public class Case17isBalanced {
     public boolean isBalanced(TreeNode root) {

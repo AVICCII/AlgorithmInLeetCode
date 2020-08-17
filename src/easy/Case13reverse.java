@@ -4,6 +4,7 @@ package easy;
  * @Author: aviccii
  * @Description:给出一个32位的有符号整数，你需要将这个整数中每位上的数字进行反转。
  * @Date: Created in 15:57 2020/8/13
+ *
  */
 public class Case13reverse {
     public int reverse(int x) {

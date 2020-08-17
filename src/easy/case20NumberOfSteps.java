@@ -1,6 +1,7 @@
 package easy;
 
 /**
+ *
  * @author aviccii 2020/8/17
  */
 public class case20NumberOfSteps {

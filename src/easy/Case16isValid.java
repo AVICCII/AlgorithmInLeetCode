@@ -14,6 +14,7 @@ import java.util.Stack;
 左括号必须以正确的顺序闭合。
 注意空字符串可被认为是有效字符串。
  * @Date: Created in 18:29 2020/8/13
+ *
  */
 public class Case16isValid {
     // Hash table that takes care of the mappings.
