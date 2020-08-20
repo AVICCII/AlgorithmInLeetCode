@@ -20,22 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b442cafc-0cd0-4063-9a1f-476407c1c165" name="Default Changelist" comment="2020/08/18&#10;offwork">
-      <change afterPath="$PROJECT_DIR$/src/easy/Case24minTimeToVisitAllPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case25getDecimalValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case26busyStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case27restoreString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/Case05countSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Case28sortedArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Case29destCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Case30balancedStringSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normal/Case06updateBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case13reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case13reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case14isPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case14isPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case15romanToInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case15romanToInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case16isValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case16isValid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case17isBalanced$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case17isBalanced$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case17isBalanced.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case17isBalanced.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case18deleteNode$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case18deleteNode$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case18deleteNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case18deleteNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case19decompressRleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case19decompressRleList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/normal/Case03multiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/normal/Case03multiply.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +116,8 @@
       <workItem from="1597653590242" duration="4086000" />
       <workItem from="1597710972095" duration="781000" />
       <workItem from="1597719894501" duration="1498000" />
-      <workItem from="1597824595893" duration="4697000" />
+      <workItem from="1597824595893" duration="4935000" />
+      <workItem from="1597891901164" duration="3372000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -185,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597721247862</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2020/8/19">
+      <created>1597829483258</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597829483258</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +206,8 @@
     <MESSAGE value="2020/08/1" />
     <MESSAGE value="2020/08/17&#10;offwork" />
     <MESSAGE value="2020/08/18&#10;offwork" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/08/18&#10;offwork" />
+    <MESSAGE value="2020/8/19" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/8/19" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1597128853599">
@@ -224,38 +222,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597199868757" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1597827674908">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1597829536449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597827674908" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1597827674908">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597829536449" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1597829536449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597827674908" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1597827674908">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597829536449" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1597829536449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597827674908" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1597827674908">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597829536449" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1597829536449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597827674908" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597829536449" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1597824716251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597824716251" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1597721256972">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1597829486217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597721256972" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597829486217" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597657192005" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1597196281233">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1597894253968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597196281233" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597894253968" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597654887733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
