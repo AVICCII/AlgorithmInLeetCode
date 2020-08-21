@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b442cafc-0cd0-4063-9a1f-476407c1c165" name="Default Changelist" comment="2020/08/18&#10;offwork">
-      <change afterPath="$PROJECT_DIR$/src/easy/Case28sortedArrayToBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case29destCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case30balancedStringSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/Case06updateBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Case31minDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Case32maxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Case33removeOuterParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Case34replaceElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +117,9 @@
       <workItem from="1597710972095" duration="781000" />
       <workItem from="1597719894501" duration="1498000" />
       <workItem from="1597824595893" duration="4935000" />
-      <workItem from="1597891901164" duration="3372000" />
+      <workItem from="1597891901164" duration="3916000" />
+      <workItem from="1597912312276" duration="32000" />
+      <workItem from="1597997086623" duration="3131000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -182,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597829483258</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2020/08/20">
+      <created>1597901840211</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597901840212</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +216,8 @@
     <MESSAGE value="2020/08/17&#10;offwork" />
     <MESSAGE value="2020/08/18&#10;offwork" />
     <MESSAGE value="2020/8/19" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/8/19" />
+    <MESSAGE value="2020/08/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/08/20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1597128853599">
@@ -242,10 +252,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597824716251" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1597829486217">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1597901842257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597829486217" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597901842257" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
