@@ -16,14 +16,30 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b442cafc-0cd0-4063-9a1f-476407c1c165" name="Default Changelist" comment="2020/08/18&#10;offwork">
-      <change afterPath="$PROJECT_DIR$/src/easy/Case31minDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case32maxProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case33removeOuterParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Case34replaceElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case22smallerNumbersThanCurrent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case23findNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case24minTimeToVisitAllPoints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case25getDecimalValue$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/Case25getDecimalValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/case20NumberOfSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/easy/case21createTargetArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/normal/Case04sortedListToBST$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/normal/Case04sortedListToBST$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/normal/Case04sortedListToBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/normal/Case05countSubstrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Case36repeatedSubstringPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/case37hammingDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/case38mergeTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/case39rangeSumBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +78,9 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="easy" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Algorithm\src\easy" />
       <recent name="D:\Algorithm\src\normal" />
@@ -119,7 +138,8 @@
       <workItem from="1597824595893" duration="4935000" />
       <workItem from="1597891901164" duration="3916000" />
       <workItem from="1597912312276" duration="32000" />
-      <workItem from="1597997086623" duration="3131000" />
+      <workItem from="1597997086623" duration="4080000" />
+      <workItem from="1598256549834" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -191,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597901840212</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2020/08/21">
+      <created>1598000414466</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598000414466</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +244,8 @@
     <MESSAGE value="2020/08/18&#10;offwork" />
     <MESSAGE value="2020/8/19" />
     <MESSAGE value="2020/08/20" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/08/20" />
+    <MESSAGE value="2020/08/21" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/08/21" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1597128853599">
@@ -228,6 +256,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597129948446" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1598002508973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598002508973" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1597199868757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,10 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597824716251" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1597901842257">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598000550003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597901842257" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598000550003" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -268,5 +300,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597654887733" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/case38mergeTrees.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
