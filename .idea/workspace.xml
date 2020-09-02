@@ -25,8 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b442cafc-0cd0-4063-9a1f-476407c1c165" name="Default Changelist" comment="2020/08/18&#10;offwork">
-      <change afterPath="$PROJECT_DIR$/src/easy/case40invertTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/case07findItinerary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/case41countGoodTriplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normal/isNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +128,8 @@
       <workItem from="1597997086623" duration="4080000" />
       <workItem from="1598256549834" duration="3611000" />
       <workItem from="1598323762010" duration="73000" />
-      <workItem from="1598521466408" duration="1044000" />
+      <workItem from="1598521466408" duration="2217000" />
+      <workItem from="1599040691395" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598260268043</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2020/8/27">
+      <created>1598522652404</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598522652404</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +250,8 @@
     <MESSAGE value="2020/08/20" />
     <MESSAGE value="2020/08/21" />
     <MESSAGE value="2020/8/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/8/24" />
+    <MESSAGE value="2020/8/27" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/8/27" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1597128853599">
@@ -277,14 +286,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597829536449" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1598523802772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598523802772" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1597824716251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597824716251" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598260292503">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1598523077303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598260292503" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598523077303" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
