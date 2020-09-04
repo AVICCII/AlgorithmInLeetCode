@@ -1,7 +1,10 @@
 package normal;
 
 /**
+<<<<<<< HEAD
  *
+=======
+>>>>>>> origin/master
  * @Author:aviccii
  * @Description:给定两个以字符串形式表示的非负整数num1和num2，返回num1和num2的乘积，它们的乘积也表示为字符串形式。
  * @Date: Created in 15:31 2020/8/13
