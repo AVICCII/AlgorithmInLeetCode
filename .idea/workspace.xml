@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/String/firstUniqChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/isAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/isPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,9 +68,9 @@
       <recent name="D:\Algorithm\src\normal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.moveZeroes">
-    <configuration name="Case19decompressRleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Case19decompressRleList" />
+  <component name="RunManager" selected="Application.isPalindrome">
+    <configuration name="Case25getDecimalValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Case25getDecimalValue" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Case25getDecimalValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Case25getDecimalValue" />
+    <configuration name="isPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.isPalindrome" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.isPalindrome" />
         <item itemvalue="Application.moveZeroes" />
         <item itemvalue="Application.plusOne" />
         <item itemvalue="Application.rotate" />
         <item itemvalue="Application.Case25getDecimalValue" />
-        <item itemvalue="Application.Case19decompressRleList" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,9 @@
       <workItem from="1600043979130" duration="598000" />
       <workItem from="1600163028377" duration="1873000" />
       <workItem from="1600216785242" duration="262000" />
-      <workItem from="1600763889442" duration="1800000" />
+      <workItem from="1600763889442" duration="2706000" />
+      <workItem from="1600821991937" duration="91000" />
+      <workItem from="1600851893195" duration="2487000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -310,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600765200927</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2020/09/22">
+      <created>1600766012408</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600766012408</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,10 +421,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599464432671" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1600765206919">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1600766015499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600765206919" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600766015499" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
