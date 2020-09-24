@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/String/isAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/isPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/atoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/countAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/strStr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/Array/moveZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/Array/moveZeroes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,20 +70,7 @@
       <recent name="D:\Algorithm\src\normal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.isPalindrome">
-    <configuration name="Case25getDecimalValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Case25getDecimalValue" />
-      <module name="LeetCodeAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.strStr">
     <configuration name="isPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String.isPalindrome" />
       <module name="LeetCodeAlgorithm" />
@@ -134,13 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="strStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.strStr" />
+      <module name="LeetCodeAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.strStr" />
         <item itemvalue="Application.isPalindrome" />
         <item itemvalue="Application.moveZeroes" />
         <item itemvalue="Application.plusOne" />
         <item itemvalue="Application.rotate" />
-        <item itemvalue="Application.Case25getDecimalValue" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +180,9 @@
       <workItem from="1600216785242" duration="262000" />
       <workItem from="1600763889442" duration="2706000" />
       <workItem from="1600821991937" duration="91000" />
-      <workItem from="1600851893195" duration="2487000" />
+      <workItem from="1600851893195" duration="3849000" />
+      <workItem from="1600908421488" duration="609000" />
+      <workItem from="1600935357843" duration="2206000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -320,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600766012408</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2020/09/23">
+      <created>1600854559339</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600854559339</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +365,8 @@
     <MESSAGE value="2020/9/8" />
     <MESSAGE value="20200915" />
     <MESSAGE value="2020/09/22" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/09/22" />
+    <MESSAGE value="2020/09/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/09/23" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="54" key="#Auto_Import" timestamp="1599559344275">
@@ -381,38 +393,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598323784848" />
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom" timestamp="1600163668001">
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1600936256445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600163668001" />
-    <state width="1877" height="245" key="GridCell.Tab.0.center" timestamp="1600163668000">
+    <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600936256445" />
+    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1600936256445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600163668000" />
-    <state width="1877" height="245" key="GridCell.Tab.0.left" timestamp="1600163668000">
+    <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600936256445" />
+    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1600936256445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600163668000" />
-    <state width="1877" height="245" key="GridCell.Tab.0.right" timestamp="1600163668001">
+    <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600936256445" />
+    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1600936256445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="245" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600163668001" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599808856554">
+    <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600936256445" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600936045525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599808856554" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1599808856554">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600936045525" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600936045525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599808856554" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1599808856554">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600936045525" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600936045525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599808856554" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1599808856554">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600936045525" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600936045525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599808856554" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600936045525" />
     <state x="540" y="254" key="IDE.errors.dialog" timestamp="1598523802772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -421,10 +433,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599464432671" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1600766015499">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1600854569586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600766015499" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600854569586" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
