@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/sparseArr/SparseArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,20 @@
       <recent name="D:\Algorithm\src\normal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.strStr">
+  <component name="RunManager" selected="Application.SparseArray">
+    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sparseArr.SparseArray" />
+      <module name="LeetCodeAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SGGAlogrithmDS.sparseArr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="isPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String.isPalindrome" />
       <module name="LeetCodeAlgorithm" />
@@ -106,19 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.rotate" />
-      <module name="LeetCodeAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="strStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String.strStr" />
       <module name="LeetCodeAlgorithm" />
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparseArray" />
         <item itemvalue="Application.strStr" />
         <item itemvalue="Application.isPalindrome" />
         <item itemvalue="Application.moveZeroes" />
         <item itemvalue="Application.plusOne" />
-        <item itemvalue="Application.rotate" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +180,9 @@
       <workItem from="1600851893195" duration="3849000" />
       <workItem from="1600908421488" duration="609000" />
       <workItem from="1600935357843" duration="2859000" />
-      <workItem from="1602235744969" duration="1018000" />
+      <workItem from="1602235744969" duration="1920000" />
+      <workItem from="1602313981848" duration="602000" />
+      <workItem from="1602660046661" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -335,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600937627429</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="2020/10/09">
+      <created>1602238046029</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602238046029</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +381,8 @@
     <MESSAGE value="2020/09/22" />
     <MESSAGE value="2020/09/23" />
     <MESSAGE value="2020/09/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/09/24" />
+    <MESSAGE value="2020/10/09" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/10/09" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="54" key="#Auto_Import" timestamp="1599559344275">
@@ -386,6 +397,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597129948446" />
+    <state x="672" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1602661462729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602661462729" />
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1600765492531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -398,22 +413,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598323784848" />
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1600938218764">
+    <state width="1877" height="473" key="GridCell.Tab.0.bottom" timestamp="1602662461664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600938218764" />
-    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1600938218764">
+    <state width="1877" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602662461664" />
+    <state width="1877" height="473" key="GridCell.Tab.0.center" timestamp="1602662461663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600938218764" />
-    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1600938218764">
+    <state width="1877" height="473" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602662461663" />
+    <state width="1877" height="473" key="GridCell.Tab.0.left" timestamp="1602662461663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600938218764" />
-    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1600938218764">
+    <state width="1877" height="473" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602662461663" />
+    <state width="1877" height="473" key="GridCell.Tab.0.right" timestamp="1602662461663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600938218764" />
+    <state width="1877" height="473" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602662461663" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600938218760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -438,10 +453,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599464432671" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1602236169457">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1602238051651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602236169457" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602238051651" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
