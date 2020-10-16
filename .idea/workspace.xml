@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SGGAlogrithmDS/queue/ArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/queue/ArrayQueueDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +188,7 @@
       <workItem from="1602740634349" duration="6424000" />
       <workItem from="1602749349751" duration="2181000" />
       <workItem from="1602809032630" duration="598000" />
-      <workItem from="1602836609880" duration="328000" />
+      <workItem from="1602836609880" duration="2069000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -373,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602744905087</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2020/10/16">
+      <created>1602837228171</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1602837228171</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +418,8 @@
     <MESSAGE value="2020/10/09" />
     <MESSAGE value="2020/10/14&#10;复习ds" />
     <MESSAGE value="2020/10/15" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/10/15" />
+    <MESSAGE value="2020/10/16" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/10/16" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="54" key="#Auto_Import" timestamp="1599559344275">
@@ -483,10 +490,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602749314912" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1602744915703">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1602837231905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602744915703" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602837231905" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -499,10 +506,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597894253968" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602748548608">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602837127584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602748548608" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602837127584" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
