@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/queue/CircleArrayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/LinkedList/SingleLinkedListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <recent name="D:\Algorithm\src\normal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CircleArrayQueueDemo">
+  <component name="RunManager" selected="Application.SingleLinkedListDemo">
     <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.queue.ArrayQueueDemo" />
       <module name="LeetCodeAlgorithm" />
@@ -123,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sparseArr.SparseArray" />
+    <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.LinkedList.SingleLinkedListDemo" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SGGAlogrithmDS.sparseArr.*" />
+          <option name="PATTERN" value="SGGAlogrithmDS.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.CircleArrayQueueDemo" />
         <item itemvalue="Application.ArrayQueueDemo" />
         <item itemvalue="Application.Case43sumOddLengthSubarrays" />
         <item itemvalue="Application.Case42toLowerCase" />
-        <item itemvalue="Application.SparseArray" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,8 @@
       <workItem from="1602809032630" duration="598000" />
       <workItem from="1602836609880" duration="2197000" />
       <workItem from="1603067875810" duration="714000" />
-      <workItem from="1603093842732" duration="2862000" />
+      <workItem from="1603093842732" duration="4234000" />
+      <workItem from="1603153963463" duration="4339000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -389,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602843258076</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2020/10/19">
+      <created>1603097806974</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603097806974</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +437,8 @@
     <MESSAGE value="2020/10/14&#10;复习ds" />
     <MESSAGE value="2020/10/15" />
     <MESSAGE value="2020/10/16" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/10/16" />
+    <MESSAGE value="2020/10/19" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/10/19" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="54" key="#Auto_Import" timestamp="1599559344275">
@@ -440,10 +449,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1597128853599" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1597129948446">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1603184513026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597129948446" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603184513026" />
     <state x="672" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1602661462729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -460,22 +469,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598323784848" />
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1602843349180">
+    <state width="1877" height="227" key="GridCell.Tab.0.bottom" timestamp="1603185382430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602843349180" />
-    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1602843349180">
+    <state width="1877" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603185382430" />
+    <state width="1877" height="227" key="GridCell.Tab.0.center" timestamp="1603185382430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602843349180" />
-    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1602843349180">
+    <state width="1877" height="227" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603185382430" />
+    <state width="1877" height="227" key="GridCell.Tab.0.left" timestamp="1603185382430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602843349180" />
-    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1602843349180">
+    <state width="1877" height="227" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603185382430" />
+    <state width="1877" height="227" key="GridCell.Tab.0.right" timestamp="1603185382430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602843349180" />
+    <state width="1877" height="227" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603185382430" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600938218760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -500,10 +509,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602749314912" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1602843300542">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1603102094616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602843300542" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603102094616" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -516,10 +525,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597894253968" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602837127584">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603185038245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602837127584" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603185038245" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
