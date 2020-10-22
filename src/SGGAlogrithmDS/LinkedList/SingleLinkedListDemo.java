@@ -1,5 +1,7 @@
 package SGGAlogrithmDS.LinkedList;
 
+import java.util.Stack;
+
 /**
  * @author aviccii 2020/10/20
  * @Discrimination
@@ -19,14 +21,110 @@ public class SingleLinkedListDemo {
 
         //显示
         singleLinkedList.listLinkedList();
+        reversePrint(singleLinkedList.getHead());
 
-        //测试修改节点的代码
-        HeroNode newHeroNodeDGQ = new HeroNode(2, "椰汁糕", "网络巨人！");
-        singleLinkedList.update(newHeroNodeDGQ);
-        //修改后的显示结果
-        singleLinkedList.listLinkedList();
 
+//        //测试修改节点的代码
+//        HeroNode newHeroNodeDGQ = new HeroNode(2, "椰汁糕", "网络巨人！");
+//        singleLinkedList.update(newHeroNodeDGQ);
+//        //修改后的显示结果
+//        singleLinkedList.listLinkedList();
+//        singleLinkedList.del(1);
+//        singleLinkedList.listLinkedList();
     }
+
+
+    //方法：获取到单链表的节点的个数（如果是带头节点的链表，需要不统计头节点）
+
+    /**
+     *
+     * @param head  链表的头节点
+     * @return  返回的就是有效节点的个数
+     */
+    public static int getLength(HeroNode head){
+        if (head.next == null){
+            return 0;
+        }
+        int length = 0;
+        //定义一个辅助的变量,这里我们没有统计头节点
+        HeroNode cur = head.next;
+        while (cur!=null){
+            length++;
+            cur = cur.next; //遍历
+        }
+        return length;
+    }
+
+
+    //查找单链表中的倒数第k个节点
+    //思路
+    //1.编写一个方法，接收head节点，同时接收一个index
+    //2.index表示倒数第Index个节点
+    //3.先把链表从头到尾遍历一下，得到链表总的长度getLength
+    //4.得到size后，我们从链表的第一个开始遍历（size-index）个，就可以得到
+    //5.如果找到了，则返回该节点，否则返回Null
+    public static HeroNode findLastIndexNode(HeroNode head,int index){
+        //判断如果链表为空，返回null
+        if (head.next==null){
+            return null;
+        }
+        //第一次遍历得到链表的长度
+        int size = getLength(head);
+        //第二次遍历size - index位置，就是我们倒数第k个节点
+        //先做一个数据的校验
+        if (index<=0 || index >size){
+            return null;
+        }
+        //定义给辅助变量,for循环定位到倒数的Index
+        HeroNode cur = head.next;//3//3-1 =2
+        for (int i = 0; i < size - index; i++) {
+            cur = cur.next;
+        }
+        return cur;
+    }
+
+
+
+
+
+    //将单链表反转
+    public static void reverseList(HeroNode head){
+        //如果当前链表为空，或者只有一个节点，无需反转，直接返回。
+        if (head.next ==null || head.next.next == null){
+            return;
+        }
+        //定义一个辅助的指针，帮助我们遍历原来的链表
+        HeroNode cur = head.next;
+        HeroNode next = null;//指向当前节点的下一个节点
+        HeroNode reverseHead = new HeroNode(0,"","");
+        //遍历原来的链表，每遍历一个节点，就将其取出，并放在新的链表reverseHead的最前端
+        while (cur.next!=null){
+            next = cur.next;//先暂时保存当前节点的下一个节点，因为后面需要使用
+            cur.next = reverseHead.next;//将cur的下一个节点指向新链表的头部
+            reverseHead.next = cur;//将cur连接到新的链表上
+            cur = next;
+        }
+        head.next = reverseHead.next;
+    }
+
+
+    //倒序打印节点
+    public static void reversePrint(HeroNode head){
+        Stack<HeroNode> stack = new Stack<>();
+        while (true){
+            if (head.next == null) {
+                break;
+            }
+            stack.push(head.next);
+            head = head.next;
+        }
+        int size = stack.size();
+        for (int i = 0; i < size; i++) {
+            System.out.println(stack.pop());
+        }
+    }
+
+
 }
 
 //定义SingleLinkedList管理我们的hero
@@ -54,6 +152,10 @@ class SingleLinkedList {
         //当退出循环后，temp就指向了链表的最后
         //将最后的这个节点的next指向新的节点
         temp.next = heroNode;
+    }
+
+    public HeroNode getHead(){
+        return head;
     }
 
     //第二种方式在添加英雄时，根据排名将英雄插入到指定位置
@@ -118,7 +220,32 @@ class SingleLinkedList {
         }
     }
 
-
+    //删除节点
+    //思路
+    //1.head不能动，因此我们需要一个temp节点来找到待删除节点的前一个节点
+    //2.说明我们在比较的时候，是temp.next.no 和需要删除的节点的no比较
+    public void del(int no){
+        HeroNode temp = head;
+        boolean flag = false;//标志是否找到待删除节点
+        while (true){
+            if (temp.next==null){
+                break;
+            }
+            if (temp.next.no == no){
+                //找到待删除节点的前一个节点
+                flag=true;
+                break;
+            }
+            temp=temp.next;
+        }
+        //判断flag
+        if (flag){//找到
+            //可以删除
+            temp.next = temp.next.next;
+        }else {
+            System.out.printf("要删除的%d节点不存在",no);
+        }
+    }
 
 
 
