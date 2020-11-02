@@ -23,13 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/LinkedList/Boy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/LinkedList/CircleSingleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/LinkedList/DoubleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/LinkedList/DoubleLinkedListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/LinkedList/HeroNode2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/LinkedList/Josepfu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/stack/ArrayStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/stack/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,13 +70,13 @@
       <recent name="D:\Algorithm\src\normal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayStackDemo">
-    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.queue.ArrayQueueDemo" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.stack.ArrayStackDemo" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SGGAlogrithmDS.queue.*" />
+          <option name="PATTERN" value="SGGAlogrithmDS.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.stack.ArrayStackDemo" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.stack.Calculator" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackDemo" />
         <item itemvalue="Application.Josepfu" />
         <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.CircleArrayQueueDemo" />
-        <item itemvalue="Application.ArrayQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +202,8 @@
       <workItem from="1603704222487" duration="2933000" />
       <workItem from="1603758952680" duration="602000" />
       <workItem from="1603789948755" duration="1996000" />
+      <workItem from="1603845474827" duration="605000" />
+      <workItem from="1604304358812" duration="3509000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -581,14 +577,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598323833355" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1597894253968">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1604304452646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597894253968" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603706805964">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604304452646" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604307617282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603706805964" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604307617282" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
