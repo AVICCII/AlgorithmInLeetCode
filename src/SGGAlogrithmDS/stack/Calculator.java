@@ -7,7 +7,7 @@ package SGGAlogrithmDS.stack;
 public class Calculator {
     public static void main(String[] args) {
         //根据前面的思路，完成表达式的运算
-        String expression = "3+2*6-2";
+        String expression = "33+2*6-2";
         //创建两个栈，数栈，符号栈
         ArrayStack2 numStack = new ArrayStack2(10);
         ArrayStack2 operStack = new ArrayStack2(10);
@@ -17,6 +17,7 @@ public class Calculator {
         int num2 = 0;
         int oper = 0;
         int res = 0;
+        String keepNum = ""; //用于拼接多位数
         char ch = ' ';//将每次扫描得到的char保存到ch中
         //开始用While循环扫描expression
         while (true) {
@@ -45,7 +46,31 @@ public class Calculator {
                 }
             }else{
                 //如果是数，则直接入数栈
-                numStack.push(ch-48);
+//                numStack.push(ch-48);
+                //分析
+                //1.当处理多位数时，不能发现是一个数就立即入数栈，因为可能是多位数
+                //2.在处理数时，需要向expression表达式index的后面再看一位，如果是数继续扫描，如果是符号再入栈
+                //3.因此需要定义一个字符串变量用于拼接
+
+                //处理多位数
+                keepNum +=ch;
+                //判断下一个字符是不是数字，如果是数字则继续扫描，如果是运算符则入数栈
+                //注意是看后一位不是index++
+
+                //如果ch已经是expression的最后一位，就直接入栈
+                if (index == expression.length()-1){
+                    numStack.push(Integer.parseInt(keepNum));
+                }else {
+                    if (operStack.isOper(expression.substring(index+1,index+2).charAt(0))){
+                        //如果后一位是运算符，则入栈
+                        numStack.push(Integer.parseInt(keepNum));
+                        //重要！:keepNum清空
+                        keepNum = "";
+                    }
+                }
+
+
+
             }
             //让Index+1，并判断是否扫描到expression的最后
             index++;
