@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/stack/PolandNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/note/traverseDemo114.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/stack/ArrayStack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/stack/ArrayStack2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/stack/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/stack/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SGGAlogrithmDS/stack/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/stack/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +205,7 @@
       <workItem from="1603845474827" duration="605000" />
       <workItem from="1604304358812" duration="4380000" />
       <workItem from="1604363960155" duration="6227000" />
+      <workItem from="1604458641767" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
