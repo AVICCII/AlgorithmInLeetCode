@@ -6,6 +6,27 @@ package note;
  */
 public class traverseDemo114 {
 
+    public static void main(String[] args) {
+        TreeNode a = new TreeNode(3);
+        TreeNode aLeft = new TreeNode(4);
+        TreeNode aRight = new TreeNode(5);
+        TreeNode bRight = new TreeNode(6);
+        a.left=aLeft;
+        a.right = aRight;
+        System.out.println(a);
+        TreeNode b=a;
+        System.out.println(b);
+        System.out.println(a.right.right);
+        b=b.right;
+        b.right=bRight;
+        System.out.println(b.right);
+        System.out.println(a.right.right);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(a.right);
+    }
+
+
     public void flatten(TreeNode root){
         // base
         if (root==null){
