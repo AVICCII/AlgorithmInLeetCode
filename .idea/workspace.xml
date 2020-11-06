@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/recursion/Queen8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/sort/SelectSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/note/traverse.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/note/traverse.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/note/traverse.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/traverse.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
       <recent name="D:\Algorithm\src\normal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.SelectSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sort.BubbleSort" />
       <module name="LeetCodeAlgorithm" />
@@ -100,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.stack.PolandNotation" />
+    <configuration name="Queen8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.recursion.Queen8" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SGGAlogrithmDS.stack.*" />
+          <option name="PATTERN" value="SGGAlogrithmDS.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queen8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.recursion.Queen8" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sort.SelectSort" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SGGAlogrithmDS.recursion.*" />
+          <option name="PATTERN" value="SGGAlogrithmDS.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Queen8" />
         <item itemvalue="Application.MiGong" />
         <item itemvalue="Application.traverseDemo114" />
-        <item itemvalue="Application.PolandNotation" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +207,7 @@
       <workItem from="1604363960155" duration="6227000" />
       <workItem from="1604458641767" duration="4782000" />
       <workItem from="1604538381600" duration="8900000" />
-      <workItem from="1604625275969" duration="4273000" />
+      <workItem from="1604625275969" duration="7441000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -478,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604556204649</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="2020/11/6">
+      <created>1604633446553</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1604633446553</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +501,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/8/19" />
     <MESSAGE value="2020/08/20" />
     <MESSAGE value="2020/08/21" />
     <MESSAGE value="2020/8/24" />
@@ -522,7 +525,8 @@
     <MESSAGE value="2020/11/2" />
     <MESSAGE value="2020/11/4" />
     <MESSAGE value="2020/11/5" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/11/5" />
+    <MESSAGE value="2020/11/6" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/11/6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="54" key="#Auto_Import" timestamp="1599559344275">
@@ -553,22 +557,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598323784848" />
-    <state width="914" height="212" key="GridCell.Tab.0.bottom" timestamp="1604632972802">
+    <state width="913" height="212" key="GridCell.Tab.0.bottom" timestamp="1604643099873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604632972802" />
-    <state width="914" height="212" key="GridCell.Tab.0.center" timestamp="1604632972802">
+    <state width="913" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604643099873" />
+    <state width="913" height="212" key="GridCell.Tab.0.center" timestamp="1604643099872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604632972802" />
-    <state width="914" height="212" key="GridCell.Tab.0.left" timestamp="1604632972802">
+    <state width="913" height="212" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604643099872" />
+    <state width="913" height="212" key="GridCell.Tab.0.left" timestamp="1604643099872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604632972802" />
-    <state width="914" height="212" key="GridCell.Tab.0.right" timestamp="1604632972802">
+    <state width="913" height="212" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604643099872" />
+    <state width="913" height="212" key="GridCell.Tab.0.right" timestamp="1604643099872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604632972802" />
+    <state width="913" height="212" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604643099872" />
     <state width="914" height="347" key="GridCell.Tab.1.bottom" timestamp="1603705826866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -593,10 +597,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602749314912" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1604556209591">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1604633542662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604556209591" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604633542662" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
