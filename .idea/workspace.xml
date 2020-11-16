@@ -23,13 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/sort/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/note/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/note/start.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/note/traverse2.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/note/traverse2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SGGAlogrithmDS/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/sort/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/note/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/start.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/note/traverse2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/note/traverse2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SGGAlogrithmDS/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,7 @@
       <recent name="D:\Algorithm\src\normal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="Case44sortByBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.Case44sortByBits" />
       <module name="LeetCodeAlgorithm" />
@@ -102,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sort.QuickSort" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sort.MergeSort" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sort.SelectSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sort.QuickSort" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.Case44sortByBits" />
-        <item itemvalue="Application.SelectSort" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +212,8 @@
       <workItem from="1604885754971" duration="4237000" />
       <workItem from="1604900075615" duration="1408000" />
       <workItem from="1604968420254" duration="11835000" />
-      <workItem from="1605057063566" duration="7218000" />
+      <workItem from="1605057063566" duration="8852000" />
+      <workItem from="1605513356021" duration="5107000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -512,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604989483757</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="2020/11/11">
+      <created>1605065070728</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1605065070728</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +535,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/8/24" />
     <MESSAGE value="2020/8/27" />
     <MESSAGE value="2020/9/4" />
     <MESSAGE value="2020/9/7" />
@@ -556,7 +559,8 @@
     <MESSAGE value="2020/11/6" />
     <MESSAGE value="2020/11/09" />
     <MESSAGE value="2020/11/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/11/10" />
+    <MESSAGE value="2020/11/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/11/11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="54" key="#Auto_Import" timestamp="1599559344275">
@@ -587,38 +591,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598323784848" />
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1605064704824">
+    <state width="930" height="207" key="GridCell.Tab.0.bottom" timestamp="1605521712308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605064704824" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1605064704823">
+    <state width="930" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605521712308" />
+    <state width="930" height="207" key="GridCell.Tab.0.center" timestamp="1605521712308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605064704823" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1605064704823">
+    <state width="930" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605521712308" />
+    <state width="930" height="207" key="GridCell.Tab.0.left" timestamp="1605521712308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605064704823" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1605064704824">
+    <state width="930" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605521712308" />
+    <state width="930" height="207" key="GridCell.Tab.0.right" timestamp="1605521712308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605064704824" />
-    <state width="914" height="347" key="GridCell.Tab.1.bottom" timestamp="1603705826866">
+    <state width="930" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605521712308" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1605065267734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603705826866" />
-    <state width="914" height="347" key="GridCell.Tab.1.center" timestamp="1603705826866">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605065267734" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1605065267734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603705826865" />
-    <state width="914" height="347" key="GridCell.Tab.1.left" timestamp="1603705826865">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605065267734" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1605065267734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603705826865" />
-    <state width="914" height="347" key="GridCell.Tab.1.right" timestamp="1603705826866">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605065267734" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1605065267734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603705826866" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605065267734" />
     <state x="540" y="254" key="IDE.errors.dialog" timestamp="1598523802772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -627,10 +631,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602749314912" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1604989491130">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605072589980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604989491130" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605072589980" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -643,10 +647,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604304452646" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605064698539">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605519890430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605064698539" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605519890430" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

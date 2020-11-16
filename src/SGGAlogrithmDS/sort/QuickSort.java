@@ -35,7 +35,6 @@ public class QuickSort {
             }
             //如果下式成立，说明pivot左右两边的值已经按照左小右大的顺序排列
             if (l >= r) {
-                System.out.println("跳");
                 break;
             }
 
