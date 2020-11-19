@@ -27,7 +27,7 @@ public class moveZeroes {
      * 一次遍历
      * @param nums
      */
-    public void moveZeroes1(int[] nums) {
+    public static void moveZeroes1(int[] nums) {
         if(nums==null) {
             return;
         }
@@ -46,7 +46,7 @@ public class moveZeroes {
 
     public static void main(String[] args) {
         int[] num1=new int[]{0,1,2,3,4,0};
-        moveZeroes(num1);
+        moveZeroes1(num1);
         for (int i : num1) {
             System.out.println(i);
         }
