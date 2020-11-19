@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/SGGAlogrithmDS/sort/MergeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/sort/RedixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/search/FibonacciSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/search/InsertValueSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/search/SeqSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -71,13 +73,13 @@
       <recent name="D:\Algorithm\src\normal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RedixSort">
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sort.InsertSort" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.search.BinarySearch" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SGGAlogrithmDS.sort.*" />
+          <option name="PATTERN" value="SGGAlogrithmDS.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.RedixSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.InsertSort" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +216,14 @@
       <workItem from="1604968420254" duration="11835000" />
       <workItem from="1605057063566" duration="8852000" />
       <workItem from="1605513356021" duration="5453000" />
-      <workItem from="1605597782216" duration="3688000" />
+      <workItem from="1605597782216" duration="4307000" />
+      <workItem from="1605678296123" duration="271000" />
+      <workItem from="1605678592636" duration="450000" />
+      <workItem from="1605679086541" duration="682000" />
+      <workItem from="1605679825742" duration="64000" />
+      <workItem from="1605679914406" duration="4334000" />
+      <workItem from="1605747444399" duration="616000" />
+      <workItem from="1605749231258" duration="3673000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -524,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605522524734</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="2020/11/17">
+      <created>1605605889556</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1605605889556</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,22 +615,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598323784848" />
-    <state width="930" height="207" key="GridCell.Tab.0.bottom" timestamp="1605521712308">
+    <state width="1877" height="200" key="GridCell.Tab.0.bottom" timestamp="1605685956122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605521712308" />
-    <state width="930" height="207" key="GridCell.Tab.0.center" timestamp="1605521712308">
+    <state width="1877" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605685956122" />
+    <state width="1877" height="200" key="GridCell.Tab.0.center" timestamp="1605685956122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605521712308" />
-    <state width="930" height="207" key="GridCell.Tab.0.left" timestamp="1605521712308">
+    <state width="1877" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605685956122" />
+    <state width="1877" height="200" key="GridCell.Tab.0.left" timestamp="1605685956122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605521712308" />
-    <state width="930" height="207" key="GridCell.Tab.0.right" timestamp="1605521712308">
+    <state width="1877" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605685956122" />
+    <state width="1877" height="200" key="GridCell.Tab.0.right" timestamp="1605685956122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="930" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605521712308" />
+    <state width="1877" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605685956122" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1605065267734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -635,14 +651,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598523802772" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1602749314912">
+    <state x="557" y="148" key="SettingsEditor" timestamp="1605681256562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602749314912" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605522529973">
+    <state x="557" y="148" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605681256562" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605681214429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605522529973" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605681214429" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -655,10 +671,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604304452646" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605603893714">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605755901980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605603893714" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605755901980" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
