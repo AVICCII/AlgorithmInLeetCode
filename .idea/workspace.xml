@@ -23,12 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/tree/ArrayBinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/tree/BinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/Case147insertionSortList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/Array/moveZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/Array/moveZeroes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SGGAlogrithmDS/hashtab/HashTabDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/hashtab/HashTabDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +220,7 @@
       <workItem from="1605679914406" duration="4334000" />
       <workItem from="1605747444399" duration="616000" />
       <workItem from="1605749231258" duration="12605000" />
-      <workItem from="1605833424644" duration="9694000" />
+      <workItem from="1605833424644" duration="10346000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -556,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605771392284</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="2020/11/20">
+      <created>1605861002068</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1605861002069</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020/9/8" />
     <MESSAGE value="20200915" />
     <MESSAGE value="2020/09/22" />
     <MESSAGE value="2020/09/23" />
@@ -600,7 +601,8 @@
     <MESSAGE value="2020/11/16" />
     <MESSAGE value="2020/11/17" />
     <MESSAGE value="2020/11/19" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/11/19" />
+    <MESSAGE value="2020/11/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/11/20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="724" y="54" key="#Auto_Import" timestamp="1599559344275">
