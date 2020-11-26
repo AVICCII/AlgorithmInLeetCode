@@ -1,18 +1,47 @@
 package SGGAlogrithmDS.tree;
 
+import java.util.Arrays;
+
 /**
  * @author aviccii 2020/11/23
  * @Discrimination
  */
 public class HeapSort {
+    //编写一个堆排序的方法
+
     public static void main(String[] args) {
         //要求将数组进行升序排列
         int[] arr = {4, 6, 8, 5, 9};
+        heapSort(arr);
     }
 
-    //编写一个堆排序的方法
     public static void heapSort(int[] arr) {
+        int temp = 0;
         System.out.println("堆排序");
+        //分步完成
+//        adjustHeap(arr,1,arr.length);
+//        System.out.println("第1次"+ Arrays.toString(arr));//{4,9,8,5,6}
+//
+//        adjustHeap(arr,0,arr.length);
+//        System.out.println("第2次"+ Arrays.toString(arr));//{9,6,8,5,4}
+
+        //最终代码
+        for (int i = arr.length / 2 - 1; i >= 0; i--) {
+            adjustHeap(arr, i, arr.length);
+        }
+        /**
+         * 2.将堆顶元素与末尾元素交换，将最大元素沉到数组末端
+         * 3.重新调整结构，使其满足堆定义，然后继续交换堆顶元素与当前末尾元素，反复执行调整+交换步骤，直到整个序列有序
+         */
+        for (int j = arr.length - 1; j > 0; j--) {
+            //交换
+            temp = arr[j];
+            arr[j] = arr[0];
+            arr[0] = temp;
+            adjustHeap(arr, 0, j);
+        }
+
+        System.out.println(Arrays.toString(arr));
     }
 
     //将一个数组(二叉树)调整成一个大顶堆
@@ -36,10 +65,10 @@ public class HeapSort {
                 //说明左子节点的值小于右子节点的值
                 k++;//k指向右子节点
             }
-            if (arr[k]>temp){//如果子节点大于父节点
-                arr[i] =arr[k];//把较大的值赋给当前节点
-                i=k;//将i指向k，继续循环比较
-            }else {
+            if (arr[k] > temp) {//如果子节点大于父节点
+                arr[i] = arr[k];//把较大的值赋给当前节点
+                i = k;//将i指向k，继续循环比较
+            } else {
                 break;
             }
         }
