@@ -88,7 +88,7 @@ public class case659isPossible {
                 map.put(x, new PriorityQueue<Integer>());
             }
             if (map.containsKey(x - 1)) {
-                int prevLength = map.get(x - 1).poll();
+                int prevLength = map.get(x  - 1).poll();
                 if (map.get(x - 1).isEmpty()) {
                     map.remove(x - 1);
                 }
