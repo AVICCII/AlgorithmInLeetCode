@@ -1,8 +1,10 @@
 package normal;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
+// TODO: 2020/12/8 dfs+减枝 
 /**
  * @author aviccii 2020/12/8
  * @Discrimination 给定一个数字字符串 S，比如 S = "123456579"，我们可以将它分成斐波那契式的序列 [123, 456, 579]。
@@ -21,7 +23,8 @@ public class case842splitIntoFibonacci {
 
     public static void main(String[] args) {
         String s = "123456579";
-        splitIntoFibonacci(s);
+        List<Integer> list = splitIntoFibonacci(s);
+        System.out.println(list);
     }
 
     public static List<Integer> splitIntoFibonacci(String S) {
@@ -52,6 +55,7 @@ public class case842splitIntoFibonacci {
                 }
             }
             list.add(curr);
+            System.out.println(list);
             if (backtrack(list, S, length, i + 1, prev + curr, curr)) {
                 return true;
             } else {
