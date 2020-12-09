@@ -32,6 +32,9 @@ public class 凑零钱问题 {
             for (int coin : coins) {
                 //子问题无解，跳过
                 if (i - coin < 0) continue;
+                //dp[i]为取得i的最小所需硬币数，自底向上的方法向上叠加，遍历至所需计算的dp[amount]
+                // **这里的1即当前硬币，dp[i-coin]扣除该硬币价值的最少需求数
+                //如果前述问题无解（dp[i-coin]=amount+1）,那么dp[i]值不变，仍为最大值，即依然无解
                 dp[i] = Math.min(dp[i], 1 + dp[i - coin]);
             }
         }
