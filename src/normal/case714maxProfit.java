@@ -25,6 +25,32 @@ public class case714maxProfit {
             dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + prices[i] - fee);
             dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - prices[i]);
         }
+        //由于全部交易结束后，持有股票的收益一定低于不持有股票的收益，因此这时候dp[n−1][0] 的收益必然是大于 dp[n−1][1] 的，
+        // 最后的答案即为 dp[n−1][0]
+        //
         return dp[n - 1][0];
     }
+
+    /**
+     * 贪心算法
+     *
+     * @param prices
+     * @param fee
+     * @return
+     */
+    public int maxProfit2(int[] prices,int fee){
+        int n = prices.length;
+        int buy = prices[0] + fee;
+        int profit = 0;
+        for (int i = 1; i < n; ++i) {
+            if (prices[i] + fee < buy) {
+                buy = prices[i] + fee;
+            } else if (prices[i] > buy) {
+                profit += prices[i] - buy;
+                buy = prices[i];
+            }
+        }
+        return profit;
+    }
+
 }
