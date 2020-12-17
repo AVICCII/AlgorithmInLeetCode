@@ -10,12 +10,24 @@ import java.util.Map;
  * 这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 str 中的每个非空单词之间存在着双向连接的对应规律。
  */
 public class case290wordPattern {
-    public boolean wordPattern(String pattern, String str) {
+
+    public static void main(String[] args) {
+
+        for (int i = 0; i < 1; ++i) {
+            System.out.println(i);
+        }
+
+        String pattern = "abba";
+        String str = "dog cat cat dog";
+        wordPattern(pattern,str);
+    }
+
+    public static boolean wordPattern(String pattern, String str) {
         Map<String, Character> str2ch = new HashMap<String, Character>();
         Map<Character, String> ch2str = new HashMap<Character, String>();
         int m = str.length();
         int i = 0;
-        for (int p = 0; p < pattern.length(); ++p) {
+        for (int p = 0; p < pattern.length(); p++) {
             char ch = pattern.charAt(p);
             if (i >= m) {
                 return false;
