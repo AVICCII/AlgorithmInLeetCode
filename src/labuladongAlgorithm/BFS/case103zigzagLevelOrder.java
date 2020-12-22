@@ -8,6 +8,17 @@ import java.util.*;
  * @Discrimination 给定一个二叉树，返回其节点值的锯齿形层序遍历。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。
  */
 public class case103zigzagLevelOrder {
+
+    public static void main(String[] args) {
+        //队列测试 poll出队列，offer入队列
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(1);
+        queue.add(2);
+        System.out.println(queue.poll());
+        queue.offer(3);
+        System.out.println(queue.poll());
+    }
+
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         if (root == null) return new ArrayList<List<Integer>>();
         List<List<Integer>> ans = new ArrayList<>();
