@@ -1,6 +1,5 @@
 package normal;
 
-import java.util.Arrays;
 
 /**
  * @author aviccii 2020/12/24
@@ -16,12 +15,14 @@ public class case135candy {
 
     public static void main(String[] args) {
         int[] a = {1, 3, 87, 87, 87, 2, 1};
-        System.out.println(candy(a));
+        candy(a);
     }
 
     public static int candy(int[] ratings) {
         int n = ratings.length;
         int[] left = new int[n];
+//        左规则：当 ratings[i - 1] < ratings[i] 时，ii 号学生的糖果数量将比 i - 1 号孩子的糖果数量多。
+
         for (int i = 0; i < n; i++) {
             if (i > 0 && ratings[i] > ratings[i - 1]) {
                 left[i] = left[i - 1] + 1;
@@ -30,6 +31,7 @@ public class case135candy {
             }
         }
         int right = 0, ret = 0;
+        //右规则：当 ratings[i]>ratings[i+1] 时，ii 号学生的糖果数量将比 i + 1 号孩子的糖果数量多。
         for (int i = n - 1; i >= 0; i--) {
             if (i < n - 1 && ratings[i] > ratings[i + 1]) {
                 right++;
