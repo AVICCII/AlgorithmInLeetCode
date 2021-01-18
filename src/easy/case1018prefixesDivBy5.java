@@ -2,7 +2,6 @@ package easy;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Pattern;
 
 /**
  * @author aviccii 2021/1/14
