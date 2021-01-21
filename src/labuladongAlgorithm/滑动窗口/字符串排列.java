@@ -8,7 +8,14 @@ import java.util.Map;
  * @Discrimination
  */
 public class 字符串排列 {
-    boolean checkInclusion(String t, String s) {
+
+    public static void main(String[] args) {
+        String t = "oow";
+        String s = "helloworld";
+        checkInclusion(t,s);
+    }
+
+    public static boolean checkInclusion(String t, String s) {
         Map<Character, Integer> need = new HashMap<>();
         Map<Character, Integer> window = new HashMap<>();
 
