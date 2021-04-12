@@ -5,7 +5,7 @@ package labuladongAlgorithm.basic;
  * @Discrimination
  */
 public class TreeNode {
-    int val;//节点存储的值
+    public int val;//节点存储的值
     public TreeNode left;//左节点
     public TreeNode right;//右节点
 
