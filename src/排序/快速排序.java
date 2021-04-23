@@ -26,11 +26,15 @@ public class 快速排序 {
     public static int partition(int[] array,int low,int hight){
         int privot = array[low];
         while(low < hight){
+            //从后往前找比privot小的
             while(low < hight && array[hight] >= privot) --hight;
             array[low] = array[hight];
+            //从前往后找比privot大的
             while(low < hight && array[low] <= privot) ++low;
+            //之前比privot小的值替换成找到的比privot大的数
             array[hight] = array[low];
         }
+        //当low超过hight说明两边已经有序
         array[low] = privot;
         return low;
     }

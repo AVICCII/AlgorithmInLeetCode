@@ -19,17 +19,15 @@ public class 希尔排序 {
         int gap = len / 2;
 
         while (gap > 0) {
-
-            for (int i = gap; i < array.length ; i++) {
-                int index = i-gap;
+            for (int i = gap;i<array.length;i++){
+                int index = i -gap;
                 int tempVal = array[i];
-                while (index>=0 && array[index]>tempVal){
-                    array[index + gap] =array[index];
+                while (index>=0&&tempVal<array[index]){
+                    array[index+gap] =array[index];
                     index -= gap;
                 }
                 array[index+gap] = tempVal;
             }
-
 
             gap /= 2;
         }

@@ -20,14 +20,14 @@ public class 插入排序 {
             return null;
         }
 
-        for (int i = 0; i < array.length -1; i++) {
+        for (int i = 0; i < array.length - 1; i++) {
             int index = i;
-            int tempVal = array[i+1];
-            while (index>=0 && tempVal< array[index]){
-                array[index+1] = array[index];
-                index -=1;
+            int current = array[index+1];
+            while (index>=0&&array[index]>current){
+                array[index+1]=array[index];
+                index--;
             }
-            array[index+1] = tempVal;
+            array[index+1] = current;
         }
 
         return array;
