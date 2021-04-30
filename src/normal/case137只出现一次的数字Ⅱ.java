@@ -11,15 +11,19 @@ public class case137只出现一次的数字Ⅱ {
     public static int singleNumber(int[] nums) {
         Arrays.sort(nums);
         for (int i = 0; i < nums.length; i++) {
+            //循环到最后一个位置则证明前面均3个3个有序
             if (i==nums.length-1) return nums[i];
             else if (nums[i + 2] == nums[i]) {
+                //重复则保证步长为2+1=3
                 i += 2;
             }
+            //说明在这三个序列中有一个不同值，即为只出现一次的数字
             else if (nums[i+2] != nums[i]){
                 if (nums[i+1]==nums[i]) return nums[i+2];
                 else return nums[i];
             }
         }
+        //base
         return 0;
     }
 
