@@ -16,7 +16,7 @@ public class 计数排序 {
             if (array[i] > max) max = array[i];
         }
         //偏差
-        bias = 0 - min;
+        bias = -min;
         //新开辟一个数组
         int[] bucket = new int[max - min + 1];
         //数据初始化为0

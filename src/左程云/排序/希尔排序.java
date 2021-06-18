@@ -11,7 +11,10 @@ public class 希尔排序 {
     }
 
     public static void ShellSort(int[] arr) {
-        int gap = arr.length / 2;
+        //可以使用knuth序列提升速度
+        int knuth = 1;
+        while (knuth <= arr.length / 3) knuth = (3 * knuth) + 1;
+        int gap = knuth;
         while (gap > 0) {
             for (int i = 0; i < arr.length - gap; i++) {
                 for (int j = i + gap; j > gap - 1 && arr[j] < arr[j - gap]; j -= gap) {
@@ -20,21 +23,35 @@ public class 希尔排序 {
                     arr[j - gap] = temp;
                 }
             }
-            gap /= 2;
+            gap = (gap - 1) / 3;
         }
     }
 
-    public static void test(int[] arr) {
+//    public static void test(int[] arr) {
+//        int gap = arr.length / 2;
+//        while (gap > 0) {
+//            for (int i = 0; i < arr.length - gap; i++) {
+//                for (int j = i + gap; j >= gap && arr[j] < arr[j - gap]; j -= gap) {
+//                    int temp = arr[j];
+//                    arr[j] = arr[j - gap];
+//                    arr[j - gap] = temp;
+//                }
+//            }
+//            gap /= 2;
+//        }
+//    }
+
+    public static void test2(int[] arr) {
         int gap = arr.length / 2;
-        while (gap>0){
-            for (int i = 0; i < arr.length - gap; i++) {
-                for (int j = i + gap;j>=gap && arr[j]<arr[j - gap];j -=gap){
+        while (gap > 0) {
+            for (int i = 0; i < arr.length -gap; i++) {
+                for (int j = i + gap;j>=gap && arr[j-gap] > arr[j];j-=gap){
                     int temp = arr[j];
-                    arr[j] =arr[j - gap];
+                    arr[j] = arr[j - gap];
                     arr[j- gap] = temp;
                 }
             }
-            gap /=2;
+            gap /= 2;
         }
     }
 }

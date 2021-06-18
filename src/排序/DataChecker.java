@@ -1,7 +1,13 @@
-package 左程云.排序;
+package 排序;
+
+
+
+import 左程云.排序.快速排序;
+import 左程云.排序.计数排序;
 
 import java.util.Arrays;
 import java.util.Random;
+
 
 /**
  * @author aviccii 2021/6/16
@@ -24,15 +30,21 @@ public class DataChecker {
         System.arraycopy(arr,0,arr2,0,arr.length);
 
         Arrays.sort(arr);
-        希尔排序.test(arr2);
+//        arr2 = 归并排序.MergeSort3(arr2);
+        快速排序.QuickSort2(arr2,0,arr2.length-1);
+//        计数排序.CountingSort2(arr2);
+
 
         boolean same = true;
 
         for (int i = 0; i < arr2.length; i++) {
-            if(arr[i] != arr2[i]) same = false;
+            if (arr[i] != arr2[i]) {
+                same = false;
+                break;
+            }
         }
 
-        System.out.println(same == true? "right":"wrong");
+        System.out.println(same ? "right":"wrong");
     }
 
     public static void main(String[] args) {
