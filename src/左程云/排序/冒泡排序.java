@@ -8,7 +8,7 @@ public class 冒泡排序 {
 
     public static void main(String[] args) {
         int[] arr = {3, 6, 4, 2, 1, 7, 9, 10};
-        BubbleSort(arr);
+        test3(arr);
     }
 
     public static void BubbleSort(int[] arr){
@@ -38,15 +38,27 @@ public class 冒泡排序 {
 //            }
 //        }
 //    }
+//
+//
+//    public static void test2(int[] arr){
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr.length  - i; j++) {
+//                if (arr[j]>arr[j+1]){
+//                    int temp = arr[j];
+//                    arr[j] = arr[j+1];
+//                    arr[j+1] = temp;
+//                }
+//            }
+//        }
+//    }
 
-
-    public static void test2(int[] arr){
+    public static void test3(int[] arr){
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j]>arr[j+1]){
-                    int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+                    int temp = arr[j+1];
+                    arr[j+1] = arr[j];
+                    arr[j] = temp;
                 }
             }
         }

@@ -44,13 +44,31 @@ public class 希尔排序 {
     public static void test2(int[] arr) {
         int gap = arr.length / 2;
         while (gap > 0) {
-            for (int i = 0; i < arr.length -gap; i++) {
-                for (int j = i + gap;j>=gap && arr[j-gap] > arr[j];j-=gap){
+            for (int i = 0; i < arr.length - gap; i++) {
+                for (int j = i + gap; j >= gap && arr[j - gap] > arr[j]; j -= gap) {
                     int temp = arr[j];
                     arr[j] = arr[j - gap];
-                    arr[j- gap] = temp;
+                    arr[j - gap] = temp;
                 }
             }
+            gap /= 2;
+        }
+    }
+
+
+    public static void test3(int[] arr) {
+        int gap = arr.length / 2;
+        while (gap > 0) {
+            for (int i = 0; i < arr.length - gap; i++) {
+                //注意j的边界问题 j >= gap
+                for (int j = i + gap;j>= gap && arr[j-gap]> arr[j];j-=gap){
+                    int temp = arr[j];
+                    arr[j] = arr[j-gap];
+                    arr[j-gap] = temp;
+                }
+
+            }
+
             gap /= 2;
         }
     }

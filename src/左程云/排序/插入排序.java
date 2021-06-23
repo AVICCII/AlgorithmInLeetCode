@@ -17,25 +17,40 @@ public class 插入排序 {
             arr[index + 1] = curr;
         }
     }
+//
+//    public static void test(int[] arr) {
+//        for (int i = 0; i < arr.length - 1; i++) {
+//            for (int j = i + 1; j > 0 && arr[j] < arr[j - 1]; j--) {
+//                int temp = arr[j];
+//                arr[j] = arr[j - 1];
+//                arr[j - 1] = temp;
+//            }
+//        }
+//    }
+//
+//
+//    public static void test2(int[] arr) {
+//        for (int i = 0; i < arr.length - 1; i++) {
+//            for (int j = i + 1; j > 0 && arr[j] < arr[j - 1]; j--) {
+//                int temp = arr[j];
+//                arr[j] = arr[j - 1];
+//                arr[j - 1] = temp;
+//            }
+//        }
+//    }
 
-    public static void test(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j > 0 && arr[j] < arr[j - 1]; j--) {
+    public static void test3(int[] arr) {
+        for (int i = 0; i < arr.length -1; i++) {
+            for (int j = i + 1;j>0 && arr[j]<arr[j -1];j--){
                 int temp = arr[j];
-                arr[j] = arr[j - 1];
-                arr[j - 1] = temp;
+                arr[j] = arr[j-1];
+                arr[j-1] =temp;
             }
         }
     }
 
-
-    public static void test2(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j > 0 && arr[j] < arr[j - 1]; j++) {
-                int temp = arr[j];
-                arr[j] = arr[j - 1];
-                arr[j - 1] = temp;
-            }
-        }
+    public static void main(String[] args) {
+        int[] arr = {2,5,3,1,6,4,7,9,8};
     }
+
 }

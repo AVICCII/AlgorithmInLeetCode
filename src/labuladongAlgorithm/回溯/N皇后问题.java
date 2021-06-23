@@ -56,6 +56,7 @@ public class N皇后问题 {
         for(char[] row : board){
             newBoard.add(new String(row));
         }
+
         return newBoard;
     }
 

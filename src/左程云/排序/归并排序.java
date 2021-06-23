@@ -92,22 +92,41 @@ public class 归并排序 {
 //        return res;
 //    }
 
+//
+//    public static int[] MergeSort3(int[] arr) {
+//        if (arr.length < 2) return arr;
+//        int mid = arr.length / 2;
+//        int[] left = Arrays.copyOfRange(arr, 0, mid);
+//        int[] right = Arrays.copyOfRange(arr, mid, arr.length);
+//        return merge3(MergeSort3(left), MergeSort3(right));
+//    }
+//
+//    static int[] merge3(int[] left, int[] right) {
+//        int[] res = new int[left.length + right.length];
+//        for (int index = 0, i = 0, j = 0; index < res.length; index++) {
+//            if (i >= left.length) res[index] = right[j++];
+//            else if (j >= right.length) res[index] = left[i++];
+//            else if (left[i] < right[j]) res[index] = left[i++];
+//            else res[index] = right[j++];
+//        }
+//        return res;
+//    }
 
-    public static int[] MergeSort3(int[] arr) {
-        if (arr.length < 2) return arr;
-        int mid = arr.length / 2;
-        int[] left = Arrays.copyOfRange(arr, 0, mid);
-        int[] right = Arrays.copyOfRange(arr, mid, arr.length);
-        return merge3(MergeSort3(left), MergeSort3(right));
+    public static int[] MergeSort4(int[] arr){
+        if (arr.length<2) return arr;
+        int mid = arr.length/2;
+        int[] left = Arrays.copyOfRange(arr,0,mid);
+        int[] right = Arrays.copyOfRange(arr,mid,arr.length);
+         return merge4(MergeSort4(left),MergeSort4(right));
     }
 
-    static int[] merge3(int[] left, int[] right) {
-        int[] res = new int[left.length + right.length];
-        for (int index = 0, i = 0, j = 0; index < res.length; index++) {
-            if (i >= left.length) res[index] = right[j++];
+    static int[] merge4(int[] left,int[] right){
+        int[] res = new int[left.length+right.length];
+        for (int index = 0,i=0,j=0;index<res.length;index++){
+            if (i>=left.length) res[index] = right[j++];
             else if (j >= right.length) res[index] = left[i++];
-            else if (left[i] < right[j]) res[index] = left[i++];
-            else res[index] = right[j++];
+            else if (left[i]>right[j]) res[index] = right[j++];
+            else res[index] = left[i++];
         }
         return res;
     }

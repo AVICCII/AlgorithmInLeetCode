@@ -14,5 +14,7 @@ public class hashmaptest {
         System.out.println(map.get(1));
         map.put(1,1);
         System.out.println(map.get(1));
+
+
     }
 }

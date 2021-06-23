@@ -65,4 +65,27 @@ public class 计数排序 {
         }
         return arr;
     }
+
+    public static int[] CountingSort3(int[] arr){
+        if (arr.length == 0) return arr;
+        int bias, min =arr[0],max =arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i]>max) max = arr[i];
+            if (arr[i]<min) min = arr[i];
+        }
+        bias = -min;
+        int[] pos = new int[max - min + 1];
+        Arrays.fill(pos,0);
+        for (int i = 0; i < arr.length; i++) {
+            pos[arr[i] + bias] += 1;
+        }
+        for (int i = 0,index = 0;i< pos.length;i++){
+            int len = pos[i];
+            while (len> 0){
+                arr[index++] = i - bias;
+                len --;
+            }
+        }
+        return arr;
+    }
 }
