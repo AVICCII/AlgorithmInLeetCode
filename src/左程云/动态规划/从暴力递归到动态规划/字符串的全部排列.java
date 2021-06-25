@@ -25,10 +25,11 @@ public class 字符串的全部排列 {
         for (int j = i; j < str.length; j++) {// j i后面所有的字符都有机会
             swap(str, i, j);
             process(str, i + 1, res);
-            //恢复现场，递归必须得到最后结果后向上返回，否则无法走下一个分支 **重要
+            //恢复现场，i+1递归必须得到最后结果后向上返回，否则无法走下一个分支 **重要
             swap(str, i, j);
         }
     }
+
 
     public static void process2(char[] str, int i, ArrayList<String> res) {
         if (i == str.length) res.add(String.valueOf(str));

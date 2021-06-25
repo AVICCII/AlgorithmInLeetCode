@@ -12,7 +12,43 @@ public class openLock {
     public static void main(String[] args) {
         String[] deadEnds = new String[]{"0201","0101","0102","1212","2002"};
         String target = "0202";
+        System.out.println(plusOne(target,1));
         openLock(deadEnds,target);
+    }
+
+    public static int openLock2(String[] deadEnds,String target){
+        Set<String> deads = new HashSet<>(Arrays.asList(deadEnds));
+
+        Set<String> visited = new HashSet<>();
+        Queue<String> q = new LinkedList<>();
+
+        int step = 0;
+        visited.add("0000");
+        q.offer("0000");
+
+        while (!q.isEmpty()){
+            for (int i = 0; i < q.size(); i++) {
+                String cur = q.poll();
+                if (deads.contains(cur)) continue;
+                if (cur.equals(target)) return step;
+
+                for (int j = 0; j < 4; j++) {
+                    String s = plusOne(cur, j);
+                    if (!visited.contains(s)){
+                        visited.add(s);
+                        q.offer(s);
+                    }
+
+                    String b = minusOne(cur, j);
+                    if (!visited.contains(b)){
+                        visited.add(b);
+                        q.offer(b);
+                    }
+                }
+            }
+            step++;
+        }
+        return 0;
     }
 
     /**
@@ -22,8 +58,7 @@ public class openLock {
      */
     public static int openLock(String[] deadEnds, String target) {
         //记录需要跳过的死亡密码
-        Set<String> deads = new HashSet<>();
-        for (String deadEnd : deadEnds) deads.add(deadEnd);
+        Set<String> deads = new HashSet<>(Arrays.asList(deadEnds));
         //记录已经穷举过的密码，防止走回头路
         Set<String> visited = new HashSet<>();
         Queue<String> q = new LinkedList<>();
