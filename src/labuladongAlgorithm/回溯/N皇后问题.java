@@ -9,11 +9,14 @@ import java.util.List;
  * @Discrimination
  */
 public class N皇后问题 {
-    List<List<String>> res = new LinkedList<>();
+    static List<List<String>> res = new LinkedList<>();
 
+    public static void main(String[] args) {
+        System.out.println(solveNQueens(5));
+    }
 
     //输入棋盘边长为n，返回所有合法的放置方法
-    public List<List<String>> solveNQueens(int n) {
+    public static List<List<String>> solveNQueens(int n) {
         List<char[]> board = new LinkedList<>();
 
         for (int i = 0; i < n; i++) {
@@ -29,7 +32,7 @@ public class N皇后问题 {
 
     //路径：board中小于row的那些行都已经成功放置了皇后
     //选择列表：第row行的所有列都是放置皇后的选择
-    void backtrack(List<char[]> board, int row) {
+    static void backtrack(List<char[]> board, int row) {
         //结束条件：row超过board的最后一行，说明棋盘放满了
         if(row == board.size()){ //触发结束条件
             res.add(transform(board));
@@ -38,7 +41,7 @@ public class N皇后问题 {
         int n = board.size();
         //遍历所有选择
         for(int col = 0; col < n; col++){
-            if(!isValid(board, row, col)){ //剪枝
+            if(!isValid(board, row, col)){
                 continue;
             }
 
@@ -51,7 +54,7 @@ public class N皇后问题 {
         }
     }
 
-    List<String> transform(List<char[]> board){
+    static List<String> transform(List<char[]> board){
         List<String> newBoard = new LinkedList<>();
         for(char[] row : board){
             newBoard.add(new String(row));
@@ -60,7 +63,7 @@ public class N皇后问题 {
         return newBoard;
     }
 
-    Boolean isValid(List<char[]> board, int row, int col) {
+    static Boolean isValid(List<char[]> board, int row, int col) {
         int n = board.size();
         for(int i = 0; i < n; i++) { // 检查列是否有皇后互相冲突
             if(board.get(i)[col] == 'Q'){

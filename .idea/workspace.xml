@@ -23,8 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a90f8d-b798-4edb-9b22-6e5148f83a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SGGAlogrithmDS/tree/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hard/case773slidingPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/左程云/动态规划/从暴力递归到动态规划/N皇后问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/左程云/动态规划/动态规划/从问题1到动态规划.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/左程云/动态规划/动态规划/字符串转化问题改DP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/左程云/动态规划/动态规划/牌组抽牌问题改DP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/左程云/动态规划/动态规划/背包问题改动态规划.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/左程云/动态规划/动态规划/货币问题转DP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/左程云/动态规划/动态规划/题目1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/左程云/动态规划/动态规划/题目2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/labuladongAlgorithm/BFS/openLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/labuladongAlgorithm/BFS/openLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/labuladongAlgorithm/回溯/N皇后问题.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAlgorithm/labuladongAlgorithm/回溯/N皇后问题.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labuladongAlgorithm/回溯/N皇后问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/labuladongAlgorithm/回溯/N皇后问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/左程云/动态规划/从暴力递归到动态规划/从左往右的尝试模型1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/左程云/动态规划/从暴力递归到动态规划/从左往右的尝试模型1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="左程云.动态规划.动态规划" />
       <recent name="easy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -70,13 +83,13 @@
       <recent name="D:\Algorithm\src\normal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayBinaryTreeDemo">
-    <configuration name="ArrayBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.tree.ArrayBinaryTreeDemo" />
+  <component name="RunManager" selected="Application.背包问题改动态规划">
+    <configuration name="背包问题改动态规划" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="左程云.动态规划.动态规划.背包问题改动态规划" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SGGAlogrithmDS.tree.*" />
+          <option name="PATTERN" value="左程云.动态规划.动态规划.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.search.BinarySearch" />
+    <configuration name="ArrayBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.tree.ArrayBinaryTreeDemo" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SGGAlogrithmDS.search.*" />
+          <option name="PATTERN" value="SGGAlogrithmDS.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SGGAlogrithmDS.sort.RedixSort" />
+    <configuration name="N皇后问题 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="左程云.动态规划.从暴力递归到动态规划.N皇后问题" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SGGAlogrithmDS.sort.*" />
+          <option name="PATTERN" value="左程云.动态规划.从暴力递归到动态规划.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="moveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.moveZeroes" />
+    <configuration name="N皇后问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labuladongAlgorithm.回溯.N皇后问题" />
       <module name="LeetCodeAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="labuladongAlgorithm.回溯.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.背包问题改动态规划" />
+        <item itemvalue="Application.N皇后问题 (1)" />
+        <item itemvalue="Application.N皇后问题" />
         <item itemvalue="Application.ArrayBinaryTreeDemo" />
         <item itemvalue="Application.Case283moveZeroes" />
-        <item itemvalue="Application.moveZeroes" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.RedixSort" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +236,8 @@
       <workItem from="1605749231258" duration="12605000" />
       <workItem from="1605833424644" duration="10648000" />
       <workItem from="1606092882490" duration="4417000" />
+      <workItem from="1624666801230" duration="24528000" />
+      <workItem from="1624754905177" duration="6107000" />
     </task>
     <task id="LOCAL-00001" summary="2020/08/11">
       <created>1597135372859</created>
@@ -614,94 +629,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="2020/11/20" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="724" y="54" key="#Auto_Import" timestamp="1599559344275">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1591" height="577" key="GridCell.Tab.0.bottom" timestamp="1624696590449">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="724" y="54" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1599559344275" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1605859150352">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1591" height="577" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1624696590449" />
+    <state width="1591" height="577" key="GridCell.Tab.0.center" timestamp="1624696590449">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605859150352" />
-    <state x="672" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1602661462729">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1591" height="577" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1624696590449" />
+    <state width="1591" height="577" key="GridCell.Tab.0.left" timestamp="1624696590449">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="672" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602661462729" />
-    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1600765492531">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1591" height="577" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1624696590449" />
+    <state width="1591" height="577" key="GridCell.Tab.0.right" timestamp="1624696590449">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600765492531" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1598002508973">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1591" height="577" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1624696590449" />
+    <state x="3345" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1624767161726">
+      <screen x="1920" y="0" width="2560" height="1400" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598002508973" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1598323784848">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598323784848" />
-    <state width="1877" height="197" key="GridCell.Tab.0.bottom" timestamp="1605865051063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="197" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605865051063" />
-    <state width="1877" height="197" key="GridCell.Tab.0.center" timestamp="1605865051063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="197" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605865051063" />
-    <state width="1877" height="197" key="GridCell.Tab.0.left" timestamp="1605865051063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="197" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605865051063" />
-    <state width="1877" height="197" key="GridCell.Tab.0.right" timestamp="1605865051063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="197" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605865051063" />
-    <state width="1366" height="341" key="GridCell.Tab.1.bottom" timestamp="1605770085854">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1366" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605770085854" />
-    <state width="1366" height="341" key="GridCell.Tab.1.center" timestamp="1605770085854">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1366" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605770085854" />
-    <state width="1366" height="341" key="GridCell.Tab.1.left" timestamp="1605770085854">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1366" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605770085854" />
-    <state width="1366" height="341" key="GridCell.Tab.1.right" timestamp="1605770085854">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1366" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605770085854" />
-    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1598523802772">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598523802772" />
-    <state x="557" y="148" key="SettingsEditor" timestamp="1605835273986">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="557" y="148" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605835273986" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605771803479">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605771803479" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597657192005">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597657192005" />
-    <state x="799" y="221" key="extract.method.dialog" timestamp="1605770468524">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="799" y="221" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605770468524" />
-    <state x="334" y="180" key="new project wizard" timestamp="1598323833355">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1598323833355" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1604304452646">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604304452646" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605841392369">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605841392369" />
+    <state x="3345" y="320" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.2560.1400@1920.0.2560.1400" timestamp="1624767161726" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
