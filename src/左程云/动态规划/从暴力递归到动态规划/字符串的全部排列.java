@@ -29,8 +29,6 @@ public class 字符串的全部排列 {
             swap(str, i, j);
         }
     }
-
-
     public static void process2(char[] str, int i, ArrayList<String> res) {
         if (i == str.length) res.add(String.valueOf(str));
 

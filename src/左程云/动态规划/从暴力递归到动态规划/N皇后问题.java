@@ -54,10 +54,6 @@ public class    N皇后问题 {
         return res;
     }
 
-    public static void main(String[] args) {
-        System.out.println(2<<1);
-        System.out.println(4>>>1);
-    }
 
     private static boolean isValid(int[] record, int i, int j) {
         for (int k = 0; k < i; k++) {
