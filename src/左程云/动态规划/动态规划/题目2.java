@@ -1,5 +1,6 @@
 package 左程云.动态规划.动态规划;
 
+import javax.imageio.stream.ImageInputStream;
 import java.util.HashMap;
 
 /**
@@ -14,6 +15,8 @@ import java.util.HashMap;
  * @Date: Created in 20:31 2021/6/26
  */
 public class 题目2 {
+
+
     public static int minStickers1(String[] stickers,String target){
         int n = stickers.length;
         int[][] map = new int[n][26];//代表Stickers -> [26] [26] [26]
@@ -42,7 +45,6 @@ public class 题目2 {
         for (char c : target) {
             tMap[c - 'a'] ++;
         }
-
         //map 比对 tMap
 
         //枚举当前第一张贴纸是谁
