@@ -33,5 +33,19 @@ public class 插入排序 {
         return array;
     }
 
+    public static int[] insertSort2(int[] arr){
+        if (arr.length == 0) return null;
+
+        for (int i = 0; i < arr.length; i++) {
+            int index = i;
+            int cur = arr[index+1];
+            while (index>=0 && cur<arr[index]){
+                arr[index+1] = arr[index];
+                index--;
+            }
+            arr[index+1] = cur;
+        }
+        return arr;
+    }
 
 }
