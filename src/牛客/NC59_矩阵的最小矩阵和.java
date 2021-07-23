@@ -3,8 +3,6 @@ package 牛客;
 import java.util.HashMap;
 import java.util.Map;
 
-import static leetcodeStar.day7.岛屿的最大面积.process;
-
 /**
  * @author aviccii 2021/7/13
  * @Discrimination

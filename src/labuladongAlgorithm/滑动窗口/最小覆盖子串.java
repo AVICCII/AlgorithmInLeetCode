@@ -12,7 +12,7 @@ public class 最小覆盖子串 {
     public static void main(String[] args) {
         String s = "ADOBECODEBANC";
         String t = "ABC";
-        System.out.println(minWindow2(s, t));
+        System.out.println(minWindow(s, t));
     }
 
     public static String minWindow(String s, String t) {
@@ -58,34 +58,40 @@ public class 最小覆盖子串 {
 
 
     public static String minWindow2(String s, String t) {
-        Map<Character, Integer> window = new HashMap<>();
-        Map<Character, Integer> need = new HashMap<>();
-        int left = 0, right = 0, valid = 0, start = 0, len = Integer.MAX_VALUE;
+        Map<Character,Integer> need = new HashMap<>();
+        Map<Character,Integer> window = new HashMap<>();
         for (char c : t.toCharArray()) {
-            need.put(c, need.getOrDefault(c, 0) + 1);
+            need.put(c,need.getOrDefault(c,0)+1);
         }
-        while (right < s.length()) {
-            char c = s.toCharArray()[right];
+        int left = 0,right = 0;
+        int res = 0;
+        int start = 0,len = Integer.MAX_VALUE;
+        while (right < s.length()){
+            char c = s.charAt(right);
             right++;
 
             if (need.getOrDefault(c, 0) != 0) {
                 window.put(c, window.getOrDefault(c, 0) + 1);
-                if (window.get(c).equals(need.get(c))) valid++;
+                if (window.get(c).equals(need.get(c))) res++;
             }
-
-            while (valid == need.size()) {
+            while (res == need.size()) {
+                //在这里更新最小子串
                 if (right - left < len) {
                     start = left;
                     len = right - left;
                 }
+                //d是将移出窗口的字符
                 char d = s.toCharArray()[left];
+                //左移窗口
                 left++;
+                //进行窗口内数据的一系列更新
                 if (need.getOrDefault(d, 0) != 0) {
-                    if (window.get(d).equals(need.get(d))) valid--;
-                    window.put(d, window.getOrDefault(d,0) - 1);
+                    if (window.get(d).equals(need.get(d))) res--;
+                    window.put(d, window.getOrDefault(d, 0) - 1);
                 }
             }
         }
         return len == Integer.MAX_VALUE ? "" : s.substring(start, start + len);
     }
+
 }
