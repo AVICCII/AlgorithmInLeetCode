@@ -60,7 +60,7 @@ public class 三数之和 {
                 while (second < third && nums[second] + nums[third] > target) third --;
                 if (second == third) break;
                 if (nums[second] + nums[third] == target) {
-                    List<Integer> list = new ArrayList<Integer>();
+                    List<Integer> list = new ArrayList<>();
                     list.add(nums[first]);
                     list.add(nums[second]);
                     list.add(nums[third]);

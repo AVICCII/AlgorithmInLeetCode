@@ -24,4 +24,14 @@ public class 寻找旋转排序数组中的最小值 {
         return nums[low];
     }
 
+
+    public int findMin2(int[] nums) {
+        int low = 0, high = nums.length;
+        while (low < high) {
+            int pivot = low + (high - low) >> 1;
+            if (nums[pivot] < nums[high]) high = pivot;
+            else low = pivot + 1;
+        }
+        return nums[low];
+    }
 }
